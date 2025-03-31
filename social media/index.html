@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Social Media Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Social Media</h1>
+        <button id="theme-toggle">🌙 Toggle Dark Mode</button>
+    </header>
+    
+    <main>
+        <section id="profile-section">
+            <h2>Your Profile</h2>
+            <input type="file" id="profile-pic-upload" accept="image/*">
+            <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+        </section>
+
+        <section id="post-section">
+            <h2>Create a Post</h2>
+            <textarea id="post-input" placeholder="What's on your mind?"></textarea>
+            <input type="file" id="file-input" accept="image/*, audio/*, .pdf, .doc, .docx, .txt">
+            <button id="post-btn">Post</button>
+        </section>
+        
+        <section id="feed">
+            <h2>Feed</h2>
+            <div id="posts"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
